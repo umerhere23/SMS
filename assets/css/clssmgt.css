@@ -1,0 +1,53 @@
+/* Custom Styles for Class Management */
+
+body {
+    background-color: #f4f6f9;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .class-card {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  
+  .class-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #0d6efd;
+  }
+  
+  .class-card .card-body {
+    padding: 20px;
+  }
+  
+  .card-text {
+    color: #6c757d;
+  }
+  
+  .modal-content {
+    border-radius: 10px;
+  }
+  
+  .btn-outline-primary {
+    color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  
+  .btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .btn-outline-primary:hover,
+  .btn-outline-danger:hover {
+    color: #fff;
+  }
+  

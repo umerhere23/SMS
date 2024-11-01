@@ -1,0 +1,71 @@
+/* Custom CSS */
+
+body {
+  background-color: #f4f6f9;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sidebar {
+  background-color: #343a40;
+  min-height: 100vh;
+}
+
+.sidebar .nav-link {
+  color: #adb5bd;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+  color: #ffffff;
+  background-color: #495057;
+}
+
+.card h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card.bg-primary,
+.card.bg-success,
+.card.bg-warning,
+.card.bg-danger {
+  border-radius: 10px;
+}
+
+.chart-container {
+  height: 300px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Chart Card Styling */
+.chart-card {
+  height: 450px; /* Set a fixed height for consistency */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.chart-card .card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chart-card .card-title {
+  margin-bottom: 20px;
+}
+
+.chart-card canvas {
+  flex-grow: 1; /* Makes the chart take available space */
+  width: 100% !important;
+  height: 100% !important;
+}

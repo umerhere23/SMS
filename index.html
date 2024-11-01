@@ -1,34 +1,55 @@
-<div class="container">
-	<div class="screen">
-		<div class="screen__content">
-			<form class="login">
-				<div class="login__field">
-					<i class="login__icon fas fa-user"></i>
-					<input type="text" class="login__input" placeholder="User name / Email">
-				</div>
-				<div class="login__field">
-					<i class="login__icon fas fa-lock"></i>
-					<input type="password" class="login__input" placeholder="Password">
-				</div>
-				<button class="button login__submit">
-					<span class="button__text">Log In Now</span>
-					<i class="button__icon fas fa-chevron-right"></i>
-				</button>				
-			</form>
-			<div class="social-login">
-				<h3>log in via</h3>
-				<div class="social-icons">
-					<a href="#" class="social-login__icon fab fa-instagram"></a>
-					<a href="#" class="social-login__icon fab fa-facebook"></a>
-					<a href="#" class="social-login__icon fab fa-twitter"></a>
-				</div>
-			</div>
-		</div>
-		<div class="screen__background">
-			<span class="screen__background__shape screen__background__shape4"></span>
-			<span class="screen__background__shape screen__background__shape3"></span>		
-			<span class="screen__background__shape screen__background__shape2"></span>
-			<span class="screen__background__shape screen__background__shape1"></span>
-		</div>		
-	</div>
-</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assests/css/style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="container">
+      <div class="hero-card">
+        <h1>PLANKTONS</h1>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
+          saepe molestias recusandae possimus sed iure, delectus facere libero
+          rerum! Sed ex nesciunt alias quae eos obcaecati voluptatibus facilis
+          maiores fugiat.
+        </p>
+      </div>
+      <div class="login-box">
+        <header class="login-header">
+          <h1>Member Login</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </header>
+        <main class="login">
+          <form action="#">
+            <div>
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Password"
+                required
+              />
+            </div>
+            <button type="submit" class="form-button">Login</button>
+          </form>
+        </main>
+        <footer class="signup-footer">
+          <p><a href="#">Don't have an account?</a></p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

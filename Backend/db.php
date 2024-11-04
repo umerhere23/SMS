@@ -1,6 +1,5 @@
 <?php
-// db.php
-$host = 'localhost';
+ $host = 'localhost';
 $dbname = 'SchoolFeeManagementSystem';
 $username = 'root';
 $password = '';
